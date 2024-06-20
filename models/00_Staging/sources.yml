@@ -1,0 +1,10 @@
+sources:
+  - name: music_db
+    database: HPANOV_TEST_DB_01
+    schema: SOURCE
+    tables:
+      - name: ALBUM
+      - name: ARTIST
+      - name: GENRE
+      - name: MEDIATYPE
+      - name: TRACK
