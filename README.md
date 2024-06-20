@@ -1,0 +1,2 @@
+# trial_dbt_snowflake
+trial_dbt_snowflake
