@@ -1,3 +1,9 @@
+{{
+  config(
+    materialized = "view",
+  )
+}}
+
 with cte1 as (
     select * from {{ref('int_tracks_genre_all')}}
 ),
