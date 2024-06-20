@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_artists_albums
+    description: "ейй и тука да слагам description..."
+    columns:
+      - name: album_id
+        description: "table primary key ..."
+        tests:
+          - unique
+          - not_null
