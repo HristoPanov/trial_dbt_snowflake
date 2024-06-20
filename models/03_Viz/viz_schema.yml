@@ -1,0 +1,20 @@
+version: 2
+
+models:
+- name: viz_jazz_songs_albums
+  description: > 
+    "Vizualization model only jazz"
+  columns:
+    - name: id_track
+      tests: 
+        - unique
+        - not_null
+
+- name: viz_songs_albums
+  description: > 
+    "Vizualization model all genres... не е много описателно... ама..."
+  columns:
+    - name: id_track
+      tests: 
+        - unique
+        - not_null
